@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="slider.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>My Image Slider</h1>
+    <p class="intro">A simple image slider made with HTML, CSS and JavaScript.</p>
+
+    <div class="slider" data-slider>
+      <div class="slides">
+        <img src="images/mountains.jpg" alt="Mountains at sunset">
+        <img src="images/beach.jpg" alt="A beach and blue ocean">
+        <img src="images/forest.jpg" alt="Green forest">
+      </div>
+      <button class="prev" type="button" aria-label="Previous image">&#10094;</button>
+      <button class="next" type="button" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <div class="dots" aria-label="Choose an image"></div>
+    <p class="counter" aria-live="polite">Image 1 of 3</p>
+  </main>
+</body>
+</html>
